@@ -8,5 +8,8 @@ namespace DXMapLesson2 {
         public MainWindow () {
             InitializeComponent();
         }
+        private void OnWebRequest(object sender, DevExpress.Xpf.Map.MapWebRequestEventArgs e) {
+            e.UserAgent = "DevExpress OpenStreetMapProvider example";
+        }
     }
 }

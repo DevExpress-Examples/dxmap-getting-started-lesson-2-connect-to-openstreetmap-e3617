@@ -5,11 +5,12 @@
         Title="MainWindow" Height="350" Width="525" >
     <Grid>
         <dxm:MapControl Name="mapControl1">
-            <dxm:ImageTilesLayer>
-                <dxm:ImageTilesLayer.DataProvider>
-                    <dxm:OpenStreetMapDataProvider />
-                </dxm:ImageTilesLayer.DataProvider>
-            </dxm:ImageTilesLayer>
+            <dxm:ImageLayer>
+                <dxm:ImageLayer.DataProvider>
+                    <dxm:OpenStreetMapDataProvider TileUriTemplate="http://{subdomain}.tile.MyCustomOSMProvider.org/{tileLevel}/{tileX}/{tileY}.png"
+                                                   WebRequest="OnWebRequest"/>
+                </dxm:ImageLayer.DataProvider>
+            </dxm:ImageLayer>
             <!--region #Elements-->
             <dxm:MapControl.ZoomTrackbarOptions>
                 <dxm:ZoomTrackbarOptions Margin="16" Orientation="Horizontal" VerticalAlignment="Bottom" />
