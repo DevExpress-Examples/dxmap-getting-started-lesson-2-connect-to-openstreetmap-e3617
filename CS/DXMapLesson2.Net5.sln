@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXMapLesson2", "DXMapLesson2.csproj", "{BE8B79E5-2641-458D-BD05-DE838C896EA1}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXMapLesson2", "DXMapLesson2.Net5.csproj", "{BE8B79E5-2641-458D-BD05-DE838C896EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
