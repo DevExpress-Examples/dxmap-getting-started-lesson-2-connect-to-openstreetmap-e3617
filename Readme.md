@@ -4,16 +4,10 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
-<!-- default file list end -->
+# Map for WPF - Connect to the OpenStreetMap Provider
 
-# How to: Connect to OpenStreetMap
-
-
-This example shows how to use the [OpenStreetMapDataProvider](https://docs.devexpress.com/WPF/DevExpress.Xpf.Map.OpenStreetMapDataProvider) class to connect the [Map Control](https://docs.devexpress.com/WPF/115085/controls-and-libraries/map-control) to the [OpenStreetMap](https://www.openstreetmap.org) image tile service.
+This example uses the [OpenStreetMapDataProvider](https://docs.devexpress.com/WPF/DevExpress.Xpf.Map.OpenStreetMapDataProvider) class to connect the [Map Control](https://docs.devexpress.com/WPF/115085/controls-and-libraries/map-control) to the [OpenStreetMap](https://www.openstreetmap.org) image tile service.
 
 > Review the [Copyright and License](https://www.openstreetmap.org/copyright) and [Tile usage policy](https://operations.osmfoundation.org/policies/tiles/) pages before using map images in the OpenStreetMap format.
 
@@ -21,7 +15,14 @@ To use the **OpenStreetMap** provider, you should provide the [UserAgent](https:
 
 Set the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Map.OpenStreetMapDataProvider.TileUriTemplate) property to a tile's URL. You can use the public OpenStreetMap server that has limitations described in the [Tile usage policy](https://operations.osmfoundation.org/policies/tiles/). To do this, set **TileUriTemplate** to *"https://{subdomain}.tile.openstreetmap.org/{tileLevel}/{tileX}/{tileY}.png"*. You can also deploy your own tile server.
 
-See also:
+## Files to Review
+
+ <!-- default file list -->
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+<!-- default file list end -->
+
+## Documentation
+
 * [Image Tile Providers](https://docs.devexpress.com/WPF/115780/controls-and-libraries/map-control/map-image-data/image-tile-providers)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
