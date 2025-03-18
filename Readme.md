@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-# Map for WPF - Connect to the OpenStreetMap Provider
+# Map for WPF - Connect to the OpenStreetMap Image Tile Service
 
 This example uses the [OpenStreetMapDataProvider](https://docs.devexpress.com/WPF/DevExpress.Xpf.Map.OpenStreetMapDataProvider) class to connect the [Map Control](https://docs.devexpress.com/WPF/115085/controls-and-libraries/map-control) to the [OpenStreetMap](https://www.openstreetmap.org) image tile service.
 
