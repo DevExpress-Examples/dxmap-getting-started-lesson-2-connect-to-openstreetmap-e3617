@@ -24,7 +24,7 @@ Set the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/
 See also:
 * [Image Tile Providers](https://docs.devexpress.com/WPF/115780/controls-and-libraries/map-control/map-image-data/image-tile-providers)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=dxmap-getting-started-lesson-2-connect-to-openstreetmap-e3617&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=dxmap-getting-started-lesson-2-connect-to-openstreetmap-e3617&~~~was_helpful=no)
 
